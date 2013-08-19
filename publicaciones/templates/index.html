@@ -2,6 +2,7 @@
 
 {% block contenido %}
 	{% for post in posts %}
+
 		<article class="item">
 			<figure class="imagen_item">
 				<img src="/publicaciones/imagenes/miramar.jpg">
@@ -13,5 +14,6 @@
 				{{ post.contenido }}
 			</p>
 		</article>
+		
 	{% endfor %}
 {% endblock %}
