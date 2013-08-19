@@ -6,7 +6,6 @@ from datetime import datetime
 from publicaciones.models import *
 
 def index(request):
-	# fecha = datetime.now()
 	posts = Post.objects.all()
 	return render_to_response('index.html',{'posts':posts},context_instance=RequestContext(request))
 
