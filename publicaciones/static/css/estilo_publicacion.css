@@ -1,0 +1,45 @@
+.item
+{
+	background: #C7C2BE url("http://d36xtkk24g8jdx.cloudfront.net/bluebar/411ae8f/images/shared/noise-1.png");
+	box-shadow: 0px 3px 5px rgba(8,8,8,.5);
+	border-radius: 4px;
+	margin: 0 0 3em 0;
+	padding: 1em;
+	position: relative;
+}
+
+.item .contenido_item
+{
+	text-align: justify;
+}
+
+.item .imagen_item
+{
+	float: left;
+	margin: 0 1em 0 0;
+}
+
+.item .imagen_item img
+{
+	border-radius: 100%;
+	height: 100px;
+}
+
+.item .fecha_creacion
+{
+	font-size: 10px;
+	text-align: left;
+}
+
+.item .titulo_item
+{
+	text-align: justify;
+	text-transform: capitalize;
+}
+
+.item .titulo_item a
+{
+	text-decoration: none;
+}
+
+

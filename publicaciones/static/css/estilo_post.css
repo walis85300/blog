@@ -1,0 +1,21 @@
+#post
+{
+	background: #C7C2BE url("http://d36xtkk24g8jdx.cloudfront.net/bluebar/411ae8f/images/shared/noise-1.png");
+	border-radius: 4px;
+	box-shadow: 0px 3px 5px rgba(8,8,8,.5);
+	margin: 0 0 3em 0;
+	padding: 1em;
+	position: relative;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+#contenido
+{
+	text-align: justify;
+}
+
+#fecha
+{
+	font-size: 10px;
+}

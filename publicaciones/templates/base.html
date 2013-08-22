@@ -5,7 +5,9 @@
 	<title>Inicio</title>
 	<link rel="stylesheet" href="{{ STATIC_URL }}css/normalize.css">
 	<link href='http://fonts.googleapis.com/css?family=Headland+One|Fauna+One' rel='stylesheet' type='text/css'></head>
-	<link rel="stylesheet" href="{{ STATIC_URL }}css/estilos.css">
+	<link rel="stylesheet" href="{{ STATIC_URL }}css/estilo_base.css">
+	<link rel="stylesheet" href="{{ STATIC_URL }}css/estilo_publicacion.css">
+	<link rel="stylesheet" href="{{ STATIC_URL }}css/estilo_post.css">
 
 <body>
 	<header>
@@ -24,13 +26,15 @@
 	<div id="menuMoviles">
 		<ul>
 			<li id="cerrar">
-				<figcaption>
-					*
+				<figcaption>			
 				</figcaption>
 			</li>
-			<li href="/index" target="_self"><strong>Home</strong></li>
 			<li>
-				<a href="index">
+				<a href="/index">
+					<strong>Home</strong></li>
+				</a>
+			<li>
+				<a>
 					<strong>Publicaciones</strong>
 				</a>
 			</li>

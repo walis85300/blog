@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block contenido %}
+
+	<article id="post">
+		<h2 id="titulo_post">
+			{{posts.titulo}}
+		</h2>
+		<p id="contenido">
+			{{posts.contenido}}
+		</p>
+		<a id="fecha">
+			{{posts.fecha_creacion}}
+		</a>
+	</article>
+
+{% endblock %}

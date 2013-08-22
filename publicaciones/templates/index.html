@@ -5,14 +5,17 @@
 
 		<article class="item">
 			<figure class="imagen_item">
-				<img src="/publicaciones/imagenes/miramar.jpg">
+				<!-- <img src="/publicaciones/imagenes/miramar.jpg"> -->
 			</figure>
 			<h2 class="titulo_item">
-				 {{ post.titulo }}
+			 	<a href="post/{{post.pk}}">{{post.titulo}}</a>
 			</h2>
 			<p class="contenido_item">
-				{{ post.contenido }}
+				{{ post.resumen }}
 			</p>
+			<a class="fecha_creacion">
+				{{post.fecha_creacion}}
+			</a>
 		</article>
 		
 	{% endfor %}

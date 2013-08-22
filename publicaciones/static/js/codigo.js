@@ -2,7 +2,9 @@ $('#home').on('click', function(){
 
 	$('#menuMoviles').css({
 
-		"display" : "block",
+		"left": "0",
+		"transition" :"all 1s ease-out",
+		"-webkit-transition" :"all 1s ease-out"
 	});
 
 });
@@ -10,9 +12,10 @@ $('#home').on('click', function(){
 $('#cerrar').on('click',function(){
 
 	$('#menuMoviles').css({
-		"display" : "none"
+		"left": "-480px",
+		"transition" :"all 1s ease-out",		
+		"-webkit-transition" :"all 1s ease-out"
 	});
-
 });
 
 
