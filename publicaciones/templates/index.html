@@ -1,8 +1,8 @@
 {% extends 'base.html' %}
 
 {% block contenido %}
+	<p id="pub_del_dia"><strong>Publicaciones Recientes</strong></p>
 	{% for post in posts %}
-
 		<article class="item">
 			<figure class="imagen_item">
 				<!-- <img src="/publicaciones/imagenes/miramar.jpg"> -->
@@ -14,9 +14,9 @@
 				{{ post.resumen }}
 			</p>
 			<a class="fecha_creacion">
-				{{post.fecha_creacion}}
+				{{post.fecha_creacion|date:'SHORT_DATETIME_FORMAT'}}
 			</a>
 		</article>
-		
+
 	{% endfor %}
 {% endblock %}

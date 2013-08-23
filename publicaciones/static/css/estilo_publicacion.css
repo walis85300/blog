@@ -1,9 +1,9 @@
 .item
 {
 	background: #C7C2BE url("http://d36xtkk24g8jdx.cloudfront.net/bluebar/411ae8f/images/shared/noise-1.png");
-	box-shadow: 0px 3px 5px rgba(8,8,8,.5);
 	border-radius: 4px;
-	margin: 0 0 3em 0;
+	box-shadow: 0px 3px 5px rgba(8,8,8,.5);
+	margin: 0 0 2em 0;
 	padding: 1em;
 	position: relative;
 }
@@ -39,6 +39,7 @@
 
 .item .titulo_item a
 {
+	color: black;
 	text-decoration: none;
 }
 
