@@ -29,4 +29,12 @@ def post(request,id_post):
 	
 	return render_to_response('posts.html',{'posts':dato},context_instance=RequestContext(request))
 
+# def blogger(request):
+
+# 	# print "EL USUARIO ES: %s " % blogr
+
+# 	dato = get_object_or_404(Post,autor=)
+
+# 	return render_to_response('bloggers.html',{'posts':dato},context_instance=RequestContext(request))
+
 

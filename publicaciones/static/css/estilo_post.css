@@ -1,13 +1,14 @@
 #post
 {
-	background: #C7C2BE url("http://d36xtkk24g8jdx.cloudfront.net/bluebar/411ae8f/images/shared/noise-1.png");
 	border-radius: 4px;
 	box-shadow: 0px 3px 5px rgba(8,8,8,.5);
+	font-size: 12px;
 	margin: 0 0 3em 0;
-	padding: 1em;
+	padding: .3em;
 	position: relative;
 	text-align: center;
 	text-transform: capitalize;
+	border-top: 1px solid rgba(255,255,255,.5)
 }
 
 #contenido
@@ -19,3 +20,10 @@
 {
 	font-size: 10px;
 }
+
+#autor
+{
+	color: #694B72;
+	text-decoration: none;
+}
+

@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block contenido %}
-	<p id="pub_del_dia"><strong>Publicaciones Recientes</strong></p>
+
 	{% for post in posts %}
 		<article class="item">
 			<figure class="imagen_item">
@@ -19,12 +19,14 @@
 					{{post.fecha_creacion|date:'SHORT_DATETIME_FORMAT'}}
 				</a>
 
-				<a href="/bloggers" class="autor_post">
+				<a href="#" class="autor_post">
 					by {{post.autor}}
 				</a>
 
 			</div>
 		</article>
-
+	
 	{% endfor %}
+
+
 {% endblock %}

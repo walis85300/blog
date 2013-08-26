@@ -25,12 +25,24 @@
 	height: 100px;
 }
 
-.item .fecha_creacion
+.item .informacion
+{
+	font-size: 10px;
+	position: relative;
+}
+
+.item .informacion .fecha_creacion
 {
 	font-size: 10px;
 	text-align: left;
 }
-
+.item .informacion .autor_post
+{
+	color: #694B72;
+	position: absolute;
+	right: 0;
+	text-decoration: none;
+}
 .item .titulo_item
 {
 	text-align: justify;
